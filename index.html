@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBS论坛系统</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/common.css" type="text/css">
+    <link rel="stylesheet" href="css/page_index.css" type="text/css">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script type="text/javascript" src="js/tools.js"></script>
+    <script type="text/javascript" src="js/banner.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--头部-->
+    <div class="header w">
+        <!--创建导航条-->
+        <ul class="nav">
+            <li>
+                <a href="understand.html">发帖须知</a>
+                <p>ABOUT POST</p>
+            </li>
+            <li>
+                <a href="notice.html">网站通知</a>
+                <p>THE NOTIFICATION</p>
+            </li>
+            <li>
+                <a href="manager_login.html">管理员登录</a>
+                <p>ADMINISTRATOR LOGIN</p>
+            </li>
+            <li>
+                <a href="about.html">关于我们</a>
+                <p>ABOUT US</p>
+            </li>
+        </ul>
+        
+        <div class="logo">
+            <a href="index.html" title="一个牛逼的网站">
+                <img src="img/logo.jpg" alt="网站的logo">
+            </a>
+        </div>  
+    </div>
+
+    <!--网站主内容-->
+    <div class="content w clearfix">
+        <h1>
+            一人一贴一故事，论坛因你而不同！
+        </h1>
+        <div class="webPic">
+            <img src="img/banner.png" alt="">
+        </div>
+        <div class="choose clearfix">
+            <div class="chooseBar">
+                <div>
+                    <a href="#">数码科技</a>
+                </div>
+                <div>
+                    <a href="#">历史军事</a>
+                </div>
+                <div>
+                    <a href="#">娱乐音乐</a>
+                </div>
+                <div>
+                    <a href="#">政治经济</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="search clearfix">
+            <input id="search-input" name="" type="text" placeholder="关键词" class="search_input" autocomplete="off">
+            <a href="javascript:void(0);" id="search-button" class="search-button">搜索</a>
+        </div>
+        <div class="notify">
+            <h2>网站通知</h2>
+            <p class="p1">Notificaton</p>
+            <div class="noticeList">
+                <div class="item">
+                    <hr>
+                    <p class="p2"><a href="">标题</a></p>
+                    <hr>
+                </div>
+                <div class="item">
+                    <hr>
+                    <p class="p2"><a href="">标题</a></p>
+                    <hr>
+                </div>
+                <div class="item">
+                    <hr>
+                    <p class="p2"><a href="">标题</a></p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="posts">
+            <h2>浏览帖子</h2>
+            <p class="p1">All Posts</p>
+            <div class="postList">
+                <div class="post">
+                    <p class="postHead"><a href="#">标题</a></p>
+                    <p class="postContent">内容简要</p>
+                </div>
+                <div class="post">
+                    <p class="postHead"><a href="#">标题</a></p>
+                    <p class="postContent">内容简要</p>
+                </div>
+                <div class="post">
+                    <p class="postHead"><a href="#">标题</a></p>
+                    <p class="postContent">内容简要</p>
+                </div>
+            </div>
+            
+            <nav aria-label="Page navigation">
+                <ul class="pagination">
+                  <li>
+                    <a href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li>
+                    <a href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+        <div class="userInfo">
+            <h2>我的信息</h2>
+            <p class="p1">My Information</p>
+            <div id="afterLogin">
+                <hr>
+                <p>欢迎你,<span>用户名</span></p>
+                <hr>
+                <p><a href="user_showPost1.html">我的主页</a></p>
+                <p><a href="">退出登录</a></p>
+                <p><a href="user_doPost.html">我要发帖</a></p>
+                <hr>
+                <p>发帖数：<span>4</span></p>
+                <p>评论数：<span>12</span></p>
+                <hr>
+            </div>
+            <div id="beforeLogin">
+                <hr>
+                <p><a href="user_login.html">前往登录</a></p>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <!--网站底部-->
+    <div class="footer">
+        <div class="w">
+            <p>
+                <a href="index.html">网站主页</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="about.html">关于我们</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="understand.html">发帖须知</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="notice.html">网站通知</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+            </p>
+            <br/>
+            <p>版权所有 YangfanJack1024</p>
+            <br/>
+            <p><a href="Mailto:yangfanjack1024@qq.com">如果您对该BBS论坛网站有任何意见，点击这里发送邮件给我们。</a></p> 
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+/* 主体内容 */
+.content{
+}
+.understandList{
+    width: 800px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px 70px;
+}
+.understandList span{
+    display: block;
+    text-align: center;
+    font:bold 25px arial,monospace;
+}
+.understandList p{
+    text-align: center;
+    font:bold 20px arial,monospace;
+}
+.understand{
+    font: 17px arial,monospace;
+    line-height: 25px;
+}
