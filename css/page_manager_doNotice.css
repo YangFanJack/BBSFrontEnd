@@ -37,42 +37,24 @@
 }
 .postList{
     width: 100%;
-}
-.users{
     /* background-color: red; */
-    width: 90%;
-    margin: 0 auto;
 }
-.user{
+.doNoticeContent{
+    margin: 0 auto;
     /* background-color: yellow; */
-    width: 100%;
-    margin: 20px auto;
-    border: 1px solid black;
+    text-align: center;
+}
+.doNoticeContent input{
+    height: 40px;
+}
+.doNoticeContent input,
+.doNoticeContent textarea{
     padding: 5px;
 }
-.userName,.userEmail,.userId{
-    float: left;
-    /* background-color: aqua; */
-    margin-left: 20px;
-}
-.userId span{
-    font:bold 17px arial,monospace;
-}
-.userEmail span{
-    font:bold 15px arial,monospace;
-}
-.userName span{
-    font:bold 18px arial,monospace;
-}
-.manButton{
-    float: right;
-    /* background-color: aqua; */
-}
-.manButton input{
-    width: 100px;
-}
-
-
-.postList nav{
-    text-align: center;
+.doNoticeContent input,
+.doNoticeContent textarea{
+    display: block;
+    margin: 10px auto;
+    width: 600px;
+    border: 1px solid black;
 }

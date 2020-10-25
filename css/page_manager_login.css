@@ -19,7 +19,7 @@
     margin-top: 10px;
 }
 .login input{
-    float: left;
+    /* float: left; */
     margin: 10px 10px 0px 10px;
     opacity: 0.6;
 }
@@ -41,6 +41,8 @@
 .cerCode2{
     height: 40px;
     width: 80px;
+    border: 1px solid black;
+    margin: 20px;
 }
 .wide{
     font:bold 18px arial,monospace;

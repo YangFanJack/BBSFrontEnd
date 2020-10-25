@@ -40,6 +40,8 @@
 }
 .commentItem{
     margin: 25px 50px;
+    background-color: red;
+    width: 85%;
 }
 .myComment{
 }
