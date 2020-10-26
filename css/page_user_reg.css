@@ -1,11 +1,13 @@
-/* 主体内容 */
+/* 主内容 */
 .content{
+    padding-bottom: 200px;
 }
 .login{
     width: 800px;
     background-color: white;
     /* background-image: url("/img/loginBack.jpg"); */
     margin: 0px auto;
+    min-height: 350px;
 }
 .login form{
     width: 320px;
