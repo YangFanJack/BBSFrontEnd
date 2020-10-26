@@ -69,13 +69,12 @@ body{
 
 .footer a,.footer p{
     color: #999;
-    font: 11px;
+    font-size: 14px;
     text-decoration: none;
 }
 
 .footer .w{
     padding-top: 30px;
-    
 }
 
 .footer p{
