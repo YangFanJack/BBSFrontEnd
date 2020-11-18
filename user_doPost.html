@@ -8,9 +8,21 @@
     <link rel="stylesheet" href="css/common.css" type="text/css">
     <link rel="stylesheet" href="css/page_user_doPost.css" type="text/css">
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="tinymce/js/tinymce/tinymce.min.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        tinymce.init({
+            selector: '#postContent',
+            language:'zh_CN',
+            width: 600,
+            height: 300,
+            resize: false
+        });
+    </script>
 </head>
 <body>
     <!--头部-->
@@ -58,6 +70,9 @@
                 <div class="bar">
                     <a href="user_doPost.html">我要发贴</a>
                 </div>
+                <div class="bar">
+                    <a href="user_showMessage.html">我的消息</a>
+                </div>
             </div>
             <div class="postList clearfix">
                 <span class="T">我要发贴</span>
@@ -70,7 +85,7 @@
                             <option value="C">选择分区：娱乐音乐</option>
                             <option value="D">选择分区：政治经济</option>
                         </select>
-                        <textarea style="resize: none;" name="postContent" class="postContent" cols="70" rows="10" placeholder="贴子内容"></textarea>
+                        <textarea id="postContent" style="resize: none;" name="postContent" class="postContent" cols="70" rows="10" placeholder="贴子内容"></textarea>
                         <input type="submit" value="提交贴子">
                     </form>
                 </div>

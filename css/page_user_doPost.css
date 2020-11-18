@@ -45,6 +45,7 @@
     margin: 0 auto;
     /* background-color: yellow; */
     text-align: center;
+    width: 600px;
 }
 .doPostContent input,
 .doPostContent select{

@@ -14,7 +14,8 @@ body{
 }
 /*解决高度塌陷问题和父子元素垂直外边距重叠问题*/
 
-.clearfix{
+.clearfix:after,
+.clearfix:before{
     content: "";
     display: table;
     clear: both;
